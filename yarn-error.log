@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/liangcaixia/.nvm/versions/node/v8.9.4/bin/node /Users/liangcaixia/.yarn/bin/yarn.js add webpack webpacl-cli
+
+PATH: 
+  /Users/liangcaixia/.nvm/versions/node/v8.9.4/bin:/Users/liangcaixia/.yarn/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/liangcaixia/.yarn/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/bin:/Users/liangcaixia/.nowa-gui/installation/node_modules/.bin:/Applications/NowaGUI.app/Contents/Resources/app/nodes:/Applications/NowaGUI.app/Contents/Resources/app/node_modules/.bin:/Users/liangcaixia/Library/Android/sdk/platform-tools:/Users/liangcaixia/Library/Android/sdk/tools:/usr/local/Cellar/maven/3.3.9/bin:/Users/liangcaixia/.nowa-gui/installation/node_modules/.bin:/Applications/NowaGUI.app/Contents/Resources/app/nodes:/Applications/NowaGUI.app/Contents/Resources/app/node_modules/.bin:/Users/liangcaixia/Library/Android/sdk/platform-tools:/Users/liangcaixia/Library/Android/sdk/tools:/Users/liangcaixia/.nowa-gui/installation/node_modules/.bin:/Applications/NowaGUI.app/Contents/Resources/app/nodes:/Applications/NowaGUI.app/Contents/Resources/app/node_modules/.bin:/usr/local/Cellar/maven/3.3.9/bin:/Users/liangcaixia/.nowa-gui/installation/node_modules/.bin:/Applications/NowaGUI.app/Contents/Resources/app/nodes:/Applications/NowaGUI.app/Contents/Resources/app/node_modules/.bin:/Users/liangcaixia/Library/Android/sdk/platform-tools:/Users/liangcaixia/Library/Android/sdk/tools
+
+Yarn version: 
+  0.17.8
+
+Node version: 
+  8.9.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "configwebpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.npmjs.org/webpacl-cli: Not found
+      at Request.params.callback [as _callback] (/Users/liangcaixia/.yarn/lib/util/request-manager.js:307:18)
+      at Request.self.callback (/Users/liangcaixia/.yarn/node_modules/request/request.js:186:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/Users/liangcaixia/.yarn/node_modules/request/request.js:1081:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/Users/liangcaixia/.yarn/node_modules/request/request.js:1001:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
