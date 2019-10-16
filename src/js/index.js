@@ -1,22 +1,18 @@
 import { observable, autorun } from 'mobx'
 const addBtn = document.getElementById('add')
-const minusBtn = document.getElementById('minus')
-const incomeLabel = document.getElementById('incomeLabel')
-const bankUser = observable({
-    name: 'Ivan Fan',
-    income: 3,
-    debit: 2
+const pointsLabel = document.getElementById('pointsLabel')
+const vipMember = observable({
+    name: 'Susan',
+    age: 18,
+    points: 0,
 });
 
-console.log(bankUser)
+console.log(vipMember)
 
-const incomeDisposer = autorun(() => {
-  incomeLabel.innerText = `${bankUser.name} income is ${bankUser.income}`
+autorun(() => {
+  pointsLabel.innerText = `[${vipMember.name}] has [${vipMember.points}] points`
 })
 
 addBtn.addEventListener('click', ()=> {
-    bankUser.income ++
-})
-minusBtn.addEventListener('click', () => {
-    bankUser.income --
+  vipMember.points ++
 })
